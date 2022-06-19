@@ -20,8 +20,9 @@ const LetrasProvider = ({children}) => {
             const {data} = resultado
             /* console.log(data.lyrics) */
             setLetra(data.lyrics)
+            setAlerta('')
         } catch (error) {
-            console.log(error)
+            setAlerta('Canción no encontrada')
         }
         setCargando(false)
     }

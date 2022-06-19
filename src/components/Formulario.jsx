@@ -20,7 +20,6 @@ const Formulario = () => {
         }
 
         busquedaLetra(busqueda)
-        setAlerta('')
     }
 
     return (
