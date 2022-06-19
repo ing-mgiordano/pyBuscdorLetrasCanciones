@@ -59,7 +59,7 @@ form input[type="text"] {
   padding: .5rem
 }
 form input[type="submit"] {
-  background-color: #7c3aed;
+  background-color: #351b62;
   border: none;
   border-radius: .5rem;
   font-size: 1.3rem;
@@ -71,16 +71,21 @@ form input[type="submit"] {
   display: block;
   width: 100%;
   margin-top: 2rem;
+  transition-property: background-color color border;
+  transition-duration: 1s;
 }
 form input[type="submit"]:hover {
   cursor: pointer;
-  background-color: #6d28d9;
+  background-color: #7b30f5;
+  color: black;
 }
 
 
 .alerta {
   border-bottom: 2px solid #d51007;
+  color: #d51007;
   text-align: center;
+  font-weight: bold;
   padding-bottom: .5rem;
   width: auto;
   display: block;
@@ -88,6 +93,7 @@ form input[type="submit"]:hover {
 
 .text-center {
   text-align: center;
+  font-weight: bold;
 }
 .letra {
   white-space: pre-wrap;
